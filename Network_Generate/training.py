@@ -70,7 +70,7 @@ if __name__ == '__main__':
     
     # This is an example
     data = []
-    folder_path = f'C:/Users/ASUS/PY/inverse/public/dataset/test_data'
+    folder_path = f'dataset/test_data'
     pkl_files = [f for f in os.listdir(folder_path) if f.endswith('.pkl')]
     for file in pkl_files:
         with open(os.path.join(folder_path, file), 'rb') as f:
