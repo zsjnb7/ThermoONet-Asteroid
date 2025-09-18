@@ -117,12 +117,9 @@ The Yarkovsky acceleration output has dimensions ```[beta, yita, r, 3]```, repre
 4. Modify thermal parameter ranges based on asteroid characteristics
 ## References
 This implementation is based on deep-learning-driven thermophysical modeling for asteroid [(Zhao et al., 2024)](https://doi.org/10.1051/0004-6361/202451789).
-
-License
+## License
 This project is for research purposes. Please cite appropriate references if using this code in publications.
-
-Contact
+## Contact
 For questions regarding this implementation, please open an issue in the GitHub repository.
-
-Additional Component
+## Additional Component
 We have also developed a neural network specifically for comet thermophysics. If interested, please navigate to [ThermoONet_Comet](https://github.com/zsjnb7/ThermoONet-Comet.git).
