@@ -105,14 +105,24 @@ yd = Yarkovsky_database(branch, trunk, para, shape)
 yarkovsky_acc = yd.yarkovsky([0.05, 2.7, 128])
 ```
 ## Output
-The Yarkovsky acceleration output has dimensions [beta, yita, r, 3], representing:
+The Yarkovsky acceleration output has dimensions ```[beta, yita, r, 3]```, representing:
 * ```beta```: Angle between the Sun and z-axis
 * ```yita```: Angle between the Sun and x-axis
 * ```r```: Heliocentric distance
 * ```3```: Acceleration components (```ax```, ```ay```, ```az```) in the spin axis coordinate system
-
 ## Recommendations
 1. For accurate results, retrain the network on your specific problem domain
 2. Use GPU acceleration for significantly faster computation
 3. Adjust grid sizes (```num_b```, ```num_y```, ```num_r```) based on accuracy requirements
 4. Modify thermal parameter ranges based on asteroid characteristics
+## References
+This implementation is based on deep-learning-driven thermophysical modeling for asteroid [(Zhao et al., 2024)](https://doi.org/10.1051/0004-6361/202451789).
+
+License
+This project is for research purposes. Please cite appropriate references if using this code in publications.
+
+Contact
+For questions regarding this implementation, please open an issue in the GitHub repository.
+
+Additional Component
+We have also developed a neural network specifically for comet thermophysics. If interested, please navigate to [ThermoONet_Comet](https://github.com/zsjnb7/ThermoONet-Comet.git).
