@@ -1,5 +1,6 @@
 # ThermoONet_Asteroid: A Deep Learning Framework for Asteroid Thermophysical Modeling and Yarkovsky Effect
 ThermoONet_Asteroid is a PyTorch-based deep learning framework designed for asteroid thermophysical modeling and yarkovsky Effect. It uses a modified deep operator neural network architecture with channel attention mechanisms to model the thermal behavior of asteroid and estimate yarkovsky effect.
+![Network](images/image.png)
 ## Project Structure
 The project consists of four main Python files:
 1. Dataset Generation for Training (```dataset_making.py```)
